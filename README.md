@@ -1,5 +1,7 @@
 # ARES insight agent
 
+[![CI](https://github.com/aaackoo/ares-insight-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/aaackoo/ares-insight-agent/actions/workflows/ci.yml)
+
 A small FastAPI service where you ask a natural-language question about a Czech company,
 and a LangGraph agent answers it using the public Czech business register
 [ARES](https://ares.gov.cz). Every fact in the answer comes with a link to the ARES
@@ -12,14 +14,14 @@ curl -s localhost:8000/ask -H 'Content-Type: application/json' \
 
 ```json
 {
-  "answer": "The company with IČO 27082440, Alza.cz a.s., is active. Its legal form is Akciová společnost (joint-stock company). The statutory representatives are Aleš Zavoral (Chairman of the Board) and Miroslav Köváry, Ing. Petr Bena, and Jakub Krejčíř (Vice-Chairmen of the Board).",
+  "answer": "The company with IČO 27082440, Alza.cz a.s., is active. Its legal form is Akciová společnost (joint-stock company). The statutory representatives are Aleš Zavoral (Chairman of the Board), ...",
   "facts": [
     {
-      "statement": "The company with IČO 27082440 is Alza.cz a.s., it is active and its legal form is Akciová společnost.",
+      "statement": "Company with IČO 27082440 is Alza.cz a.s., active, legal form Akciová společnost.",
       "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27082440"
     },
     {
-      "statement": "The statutory representatives of Alza.cz a.s. are Aleš Zavoral (Chairman of the Board), Miroslav Köváry, Ing. Petr Bena, and Jakub Krejčíř (Vice-Chairmen of the Board).",
+      "statement": "Statutory representatives of company 27082440 are Aleš Zavoral (Chairman), ...",
       "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/27082440"
     }
   ]
@@ -77,16 +79,16 @@ event: tool_call
 data: {"tool": "search_companies_by_name", "args": {"name": "Kofola ČeskoSlovensko"}}
 
 event: tool_result
-data: {"tool": "search_companies_by_name", "preview": "[{\"ico\":\"24261980\", ..."}
+data: {"tool": "search_companies_by_name", "preview": {"total": 1, "items": [{"ico": "24261980", "name": "Kofola ČeskoSlovensko a.s.", "legal_form": "Akciová společnost", ...}]}}
 
 event: tool_call
 data: {"tool": "get_statutory_bodies", "args": {"ico": "24261980"}}
 
 event: tool_result
-data: {"tool": "get_statutory_bodies", "preview": "{\"ico\":\"24261980\", ..."}
+data: {"tool": "get_statutory_bodies", "preview": {"ico": "24261980", "company_name": "Kofola ČeskoSlovensko a.s.", "status": "AKTIVNI", "bodies": [{"body_name": "Statutární orgán - představenstvo", "members": [{"name": "Ing. DANIEL BURYŠ", "role": "místopředseda představenstva", "role_since": "2018-11-30"}, ..., "... 3 more"]}], ...}}
 
 event: answer
-data: {"answer": "Kofola ČeskoSlovensko a.s. is run by its statutory board, ...", "facts": [...]}
+data: {"answer": "Kofola ČeskoSlovensko a.s. is run by its statutory board, with Janis Samaras as the chairman, ...", "facts": [{"statement": "Kofola ČeskoSlovensko a.s. has a statutory board with Janis Samaras as chairman since 2015-09-19.", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/24261980"}, ...]}
 ```
 
 To use Azure OpenAI instead, set `LLM_PROVIDER=azure` and the `AZURE_OPENAI_*` variables
