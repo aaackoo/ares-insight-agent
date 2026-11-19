@@ -1,0 +1,1365 @@
+{
+  "icoId": "27082440",
+  "zaznamy": [
+    {
+      "akcie": [
+        {
+          "datumZapisu": "2023-03-12",
+          "typAkcie": "KMENOVE_NA_JMENO",
+          "podobaAkcie": "ZAKNIHOVANA",
+          "pocet": 100,
+          "hodnota": {
+            "typObnos": "KORUNY",
+            "hodnota": "20000"
+          }
+        },
+        {
+          "datumZapisu": "2014-08-08",
+          "datumVymazu": "2023-03-12",
+          "typAkcie": "KMENOVE_NA_JMENO",
+          "podobaAkcie": "LISTINNA",
+          "pocet": 100,
+          "hodnota": {
+            "typObnos": "KORUNY",
+            "hodnota": "20000"
+          }
+        },
+        {
+          "datumZapisu": "2006-05-17",
+          "datumVymazu": "2014-08-08",
+          "typAkcie": "KMENOVE_NA_MAJITELE",
+          "podobaAkcie": "LISTINNA",
+          "pocet": 100,
+          "hodnota": {
+            "typObnos": "KORUNY",
+            "hodnota": "20000;00"
+          }
+        },
+        {
+          "datumZapisu": "2003-08-26",
+          "datumVymazu": "2006-05-17",
+          "typAkcie": "KMENOVE_NA_JMENO",
+          "pocet": 100,
+          "text": "akcie vydané v listinné podobě",
+          "hodnota": {
+            "typObnos": "KORUNY",
+            "hodnota": "20000;00"
+          }
+        }
+      ],
+      "rejstrik": "OR",
+      "primarniZaznam": true,
+      "spisovaZnacka": [
+        {
+          "datumZapisu": "2003-08-26",
+          "soud": "MSPH",
+          "oddil": "B",
+          "vlozka": 8573
+        }
+      ],
+      "ico": [
+        {
+          "datumZapisu": "2003-08-26",
+          "hodnota": "27082440"
+        }
+      ],
+      "obchodniJmeno": [
+        {
+          "datumZapisu": "2008-09-19",
+          "hodnota": "Alza.cz a.s."
+        },
+        {
+          "datumZapisu": "2003-08-26",
+          "datumVymazu": "2008-09-19",
+          "hodnota": "Alzasoft a.s."
+        }
+      ],
+      "zakladniKapital": [
+        {
+          "datumZapisu": "2003-08-26",
+          "typJmeni": "ZAKLADNI_JMENI",
+          "vklad": {
+            "typObnos": "KORUNY",
+            "hodnota": "2000000;00"
+          },
+          "splaceni": {
+            "typObnos": "PROCENTA",
+            "hodnota": "100"
+          }
+        }
+      ],
+      "pravniForma": [
+        {
+          "datumZapisu": "2003-08-26",
+          "hodnota": "121"
+        }
+      ],
+      "financniUrad": "013",
+      "adresy": [
+        {
+          "datumZapisu": "2003-08-26",
+          "datumVymazu": "2018-05-10",
+          "adresa": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 78,
+            "nazevSpravnihoObvodu": "Praha 7",
+            "kodMestskehoObvodu": 78,
+            "nazevMestskehoObvodu": "Praha 7",
+            "kodMestskeCastiObvodu": 500186,
+            "kodUlice": 449571,
+            "nazevMestskeCastiObvodu": "Praha 7",
+            "nazevUlice": "Jateční",
+            "cisloDomovni": 1530,
+            "kodCastiObce": 490067,
+            "cisloOrientacni": 33,
+            "nazevCastiObce": "Holešovice",
+            "kodAdresnihoMista": 22754075,
+            "psc": 17000,
+            "textovaAdresa": "Jateční 1530/33, Holešovice, 17000 Praha 7",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "typAdresy": "SIDLO"
+        },
+        {
+          "datumZapisu": "2018-05-10",
+          "adresa": {
+            "kodStatu": "CZ",
+            "nazevStatu": "Česká republika",
+            "kodKraje": 19,
+            "nazevKraje": "Hlavní město Praha",
+            "kodObce": 554782,
+            "nazevObce": "Praha",
+            "kodSpravnihoObvodu": 78,
+            "nazevSpravnihoObvodu": "Praha 7",
+            "kodMestskehoObvodu": 78,
+            "nazevMestskehoObvodu": "Praha 7",
+            "kodMestskeCastiObvodu": 500186,
+            "kodUlice": 449423,
+            "nazevMestskeCastiObvodu": "Praha 7",
+            "nazevUlice": "Jankovcova",
+            "cisloDomovni": 1522,
+            "kodCastiObce": 490067,
+            "cisloOrientacni": 53,
+            "nazevCastiObce": "Holešovice",
+            "kodAdresnihoMista": 25958895,
+            "psc": 17000,
+            "textovaAdresa": "Jankovcova 1522/53, Holešovice, 17000 Praha 7",
+            "standardizaceAdresy": true,
+            "typCisloDomovni": 1
+          },
+          "typAdresy": "SIDLO"
+        }
+      ],
+      "ostatniSkutecnosti": [
+        {
+          "datumZapisu": "2014-08-08",
+          "datumVymazu": "2022-08-15",
+          "hodnota": "Počet členů statutárního orgánu: 2"
+        },
+        {
+          "datumZapisu": "2014-08-08",
+          "hodnota": "Obchodní korporace se podřídila zákonu jako celku postupem podle § 777 odst. 5 zákona č. 90/2012 Sb., o obchodních společnostech a družstvech."
+        },
+        {
+          "datumZapisu": "2023-03-12",
+          "datumVymazu": "2023-03-14",
+          "hodnota": "Obchodní společnost Alza.cz a.s., IČO: 48288551, se sídlem Jankovcova 1522/53, Holešovice, 170 00 Praha 7, IČO: 270 82 440 (dále jen Společnost), tímto plní svou povinnost ve smyslu ustanovení § 529 zákona č. 89/2012 Sb., občanský zákoník, a zveřejňuje, že jediný akcionář Společnosti rozhodl v působnosti valné hromady Společnosti dne 9.3.2023 o přeměně podoby všech 100 kmenových akcií na jméno v listinné podobě o jmenovité hodnotě 20 000,- Kč jedné akcie na 100 kmenových akcií na jméno v zaknihované podobě ve jmenovité hodnotě 20 000,- Kč jedné akcie. Akcionář Společnosti je povinen listinné akcie předložit ve lhůtě do 31.5.2023."
+        },
+        {
+          "datumZapisu": "2023-03-14",
+          "hodnota": "Obchodní společnost Alza.cz a.s., se sídlem Jankovcova 1522/53, Holešovice, 170 00 Praha 7, IČO: 270 82 440 (dále jen Společnost), tímto plní svou povinnost ve smyslu ustanovení § 529 zákona č. 89/2012 Sb., občanský zákoník, a zveřejňuje, že jediný akcionář Společnosti rozhodl v působnosti valné hromady Společnosti dne 9.3.2023 o přeměně podoby všech 100 kmenových akcií na jméno v listinné podobě o jmenovité hodnotě 20 000,- Kč jedné akcie na 100 kmenových akcií na jméno v zaknihované podobě ve jmenovité hodnotě 20 000,- Kč jedné akcie. Akcionář Společnosti je povinen listinné akcie předložit ve lhůtě do 31.5.2023."
+        },
+        {
+          "datumZapisu": "2016-08-28",
+          "hodnota": "V souvislosti s procesem fúze sloučením obchodní společnosti Alza.cz a.s., se sídlem Praha 7, Jateční 33a, PSČ 170 00, IČ: 27082440, zapsané v obchodním rejstříku vedeném Městským soudem v Praze, v oddílu B, vložce 8573, právní forma: akciová společnost, založené a existující podle práva České republiky, jako nástupnické společnosti (dále též jen jako \"Alza.cz a.s.\"), s obchodní společností PUBLERO s.r.o., se sídlem Hněvkovského 30/65, Komárov, 617 00 Brno, IČ: 24723771, zapsané v obchodním rejstříku vedeném u Krajského soudu v Brně, v oddílu C, vložce 80153, právní forma: společnost s ručeným omezeným, založenou a existující podle práva České republiky, jako zanikající společností (dále též jen jako \"PUBLERO s.r.o.\"), podle projektu fúze sloučením ze dne 23.11.2015 (dvacátého třetího listopadu roku dva tisíce patnáct) došlo ke sloučení společnosti Alza.cz a.s. se společností PUBLERO s.r.o., přičemž zanikající společnost PUBLERO s.r.o. sloučením zanikla bez likvidace a její jmění přešlo na nástupnickou společnost Alza.cz a.s."
+        },
+        {
+          "datumZapisu": "2024-05-01",
+          "hodnota": "Na obchodní společnost Alza.cz a.s., se sídlem Jankovcova 1522/53, Holešovice, 170 00 Praha 7, IČ: 27082440, byla převedena část obchodního závodu společnosti OTHER CORP s.r.o., se sídlem Čs. armády 894, 267 51 Zdice, IČ: 01400827, a to obchodní závod provozován na adrese: Čs. armády 894, 267 51 Zdice, jehož předmětem podnikání je provoz lékárny, ID lékárny 21995420, a to na základě Smlouvy o koupi závodu uzavřené dne 23.4.2024 mezi společností OTHER CORP s.r.o., se sídlem Čs. armády 894, 267 51 Zdice, IČ: 01400827, na straně prodávající a společností Alza.cz a.s., se sídlem Jankovcova 1522/53, Holešovice, 170 00 Praha 7, IČ: 27082440, na straně kupující. \nDoklad o koupi části závodu byl uložen ve sbírce listin Městského soudu v Praze u společnosti OTHER CORP s.r.o. a u společnosti Alza.cz a.s.\nKe dni 1.5.2024 byl u společnosti Alza.cz a.s. jako kupující zveřejněn údaj o tom, že společnost Alza.cz a.s. uložila doklad o koupi části závodu do sbírky listin."
+        },
+        {
+          "datumZapisu": "2024-06-01",
+          "hodnota": "Na obchodní společnost Alza.cz a.s., se sídlem Jankovcova 1522/53, Holešovice, 170 00 Praha 7, IČ: 27082440, byl převeden obchodní závod Václava Pražáka, fyzické osoby podnikající pod obchodní firmou Václav Pražák, se sídlem Osadní 869/32, Holešovice, 170 00 Praha 7, IČ: 11570482, provozován na adrese: Tusarova 1601/42, 170 00 Praha 7  Holešovice, s předmětem podnikání: holičství, kadeřnictví, a to na základě Smlouvy o koupi závodu uzavřené dne 29.5.2024 mezi Václavem Pražákem, fyzickou osobou podnikající pod obchodní firmou Václav Pražák, se sídlem Osadní 869/32, Holešovice, 170 00 Praha 7, IČ: 115704827, na straně prodávající, a společností Alza.cz a.s., se sídlem Jankovcova 1522/53, Holešovice, 170 00 Praha 7, IČ: 27082440, na straně kupující. \nDoklad o koupi závodu byl uložen ve sbírce listin Městského soudu v Praze u společnosti Alza.cz a.s. \nKe dni 1.6.2024 se u společnosti Alza.cz a.s. jako kupující zveřejňuje údaj o tom, že společnost Alza.cz a.s. uložila doklad o koupi části závodu do sbírky listin."
+        }
+      ],
+      "datumAktualizace": "2026-07-24",
+      "stavSubjektu": "AKTIVNI",
+      "datumZapisu": "2003-08-26",
+      "zpusobRizeni": [
+        {
+          "datumZapisu": "2003-08-26",
+          "typ": "DUAL"
+        }
+      ],
+      "cinnosti": {
+        "predmetPodnikani": [
+          {
+            "datumZapisu": "2003-08-26",
+            "datumVymazu": "2010-02-23",
+            "hodnota": "maloobchod provozovaný mimo řádné provozovny\n-specializovaný maloobchod\n-velkoobchod\n-reklamní činnost a marketing\n-poskytování software a poradenství v oblasti hardware a software\n-zprostředkování obchodu\n-zpracování dat, služby databank, správa sítí"
+          },
+          {
+            "datumZapisu": "2004-07-08",
+            "datumVymazu": "2010-02-23",
+            "hodnota": "výroba, instalace a opravy elektronických zařízení"
+          },
+          {
+            "datumZapisu": "2010-02-23",
+            "hodnota": "výroba, instalace, opravy elektrických strojů a přístrojů, elektronických a telekomunikačních zařízení"
+          },
+          {
+            "datumZapisu": "2010-02-23",
+            "datumVymazu": "2022-08-15",
+            "hodnota": "výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona"
+          },
+          {
+            "datumZapisu": "2022-08-15",
+            "datumVymazu": "2022-12-06",
+            "hodnota": "výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona, v oborech činnosti: \n\nzprostředkování obchodu a služeb\nvelkoobchod a maloobchod\nposkytování software, poradenství v oblasti informačních technologií, zpracování dat, hostingové a související činnosti a webové portály\npronájem a půjčování věcí movitých\nreklamní činnost, marketing, mediální zastoupení"
+          },
+          {
+            "datumZapisu": "2022-12-06",
+            "datumVymazu": "2023-12-13",
+            "hodnota": "výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona, v oborech činnosti: \n\nzprostředkování obchodu a služeb\nvelkoobchod a maloobchod\nskladování, balení zboží, manipulace s nákladem a technické činnosti v dopravě\nzasilatelství a zastupování v celním řízení\nposkytování software, poradenství v oblasti informačních technologií, zpracování dat, hostingové a související činnosti a webové portály\npronájem a půjčování věcí movitých\nreklamní činnost, marketing, mediální zastoupení"
+          },
+          {
+            "datumZapisu": "2023-12-13",
+            "datumVymazu": "2024-05-01",
+            "hodnota": "výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona, v oborech činnosti: \n\nzprostředkování obchodu a služeb\nvelkoobchod a maloobchod\nskladování, balení zboží, manipulace s nákladem a technické činnosti v dopravě\nzasilatelství a zastupování v celním řízení\nposkytování software, poradenství v oblasti informačních technologií, zpracování dat, hostingové a související činnosti a webové portály\npronájem a půjčování věcí movitých\nreklamní činnost, marketing, mediální zastoupení\nvýroba elektronických součástek, elektrických zařízení a výroba a opravy elektrických strojů, přístrojů a elektronických zařízení pracujících na malém napětí\nskladování, balení zboží, manipulace s nákladem a technické činnosti v dopravě\nporadenská a konzultační činnost, zpracování odborných studií a posudků\nprojektování elektrických zařízení\nslužby v oblasti administrativní správy a služby organizačně hospodářské povahy\nmimoškolní výchova a vzdělávání, pořádání kurzů, školení, včetně lektorské činnosti"
+          },
+          {
+            "datumZapisu": "2024-05-01",
+            "hodnota": "výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona, v oborech činnosti: \n\nzprostředkování obchodu a služeb\nvelkoobchod a maloobchod\nskladování, balení zboží, manipulace s nákladem a technické činnosti v dopravě\nzasilatelství a zastupování v celním řízení\nposkytování software, poradenství v oblasti informačních technologií, zpracování dat, hostingové a související činnosti a webové portály\npronájem a půjčování věcí movitých\nreklamní činnost, marketing, mediální zastoupení\nvýroba elektronických součástek, elektrických zařízení a výroba a opravy elektrických strojů, přístrojů a elektronických zařízení pracujících na malém napětí\nskladování, balení zboží, manipulace s nákladem a technické činnosti v dopravě\nporadenská a konzultační činnost, zpracování odborných studií a posudků\nprojektování elektrických zařízení\nslužby v oblasti administrativní správy a služby organizačně hospodářské povahy\nmimoškolní výchova a vzdělávání, pořádání kurzů, školení, včetně lektorské činnosti\nvýroba chemických látek a chemických směsí nebo předmětů a kosmetických přípravků\nvýroba zdravotnických prostředků\nubytovací služby"
+          },
+          {
+            "datumZapisu": "2013-07-18",
+            "hodnota": "poskytování nebo zprostředkování spotřebitelského úvěru"
+          },
+          {
+            "datumZapisu": "2013-07-18",
+            "hodnota": "zprostředkovatelská činnost v pojišťovnictví"
+          },
+          {
+            "datumZapisu": "2014-11-13",
+            "hodnota": "hostinská činnost"
+          },
+          {
+            "datumZapisu": "2015-06-24",
+            "hodnota": "silniční motorová doprava - nákladní provozovaná vozidly nebo jízdními soupravami o největší povolené hmotnosti nepřesahující 3,5 tuny, jsou-li určeny k přepravě zvířat nebo věcí"
+          },
+          {
+            "datumZapisu": "2022-08-15",
+            "hodnota": "prodej kvasného lihu, konzumního lihu a lihovin"
+          },
+          {
+            "datumZapisu": "2023-12-13",
+            "hodnota": "montáž, opravy, revize a zkoušky elektrických zařízení"
+          },
+          {
+            "datumZapisu": "2023-12-13",
+            "hodnota": "provádění staveb, jejich změn a odstraňování"
+          },
+          {
+            "datumZapisu": "2023-12-13",
+            "hodnota": "činnost účetních poradců, vedení účetnictví, vedení daňové evidence"
+          },
+          {
+            "datumZapisu": "2024-05-01",
+            "hodnota": "poskytování zdravotních služeb - lékárna"
+          },
+          {
+            "datumZapisu": "2025-05-13",
+            "hodnota": "provozování poštovních služeb"
+          }
+        ]
+      },
+      "ostatniOrgany": [
+        {
+          "datumZapisu": "2003-08-26",
+          "nazevOrganu": "Dozorčí rada",
+          "clenoveOrganu": [
+            {
+              "datumZapisu": "2003-08-26",
+              "datumVymazu": "2006-05-17",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26"
+                },
+                "funkce": {
+                  "nazev": "člen  dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Jiří",
+                "prijmeni": "Med"
+              }
+            },
+            {
+              "datumZapisu": "2006-05-17",
+              "datumVymazu": "2012-07-25",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26",
+                  "zanikClenstvi": "2008-08-26"
+                },
+                "funkce": {
+                  "vznikFunkce": "2006-04-11",
+                  "zanikFunkce": "2008-08-26",
+                  "nazev": "předseda  dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Jiří",
+                "prijmeni": "Med"
+              }
+            },
+            {
+              "datumZapisu": "2003-08-26",
+              "datumVymazu": "2012-07-25",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26",
+                  "zanikClenstvi": "2008-08-26"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Jan",
+                "prijmeni": "Samko"
+              }
+            },
+            {
+              "datumZapisu": "2003-08-26",
+              "datumVymazu": "2006-05-17",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26",
+                  "zanikClenstvi": "2006-03-08"
+                },
+                "funkce": {
+                  "vznikFunkce": "2003-08-26",
+                  "zanikFunkce": "2006-03-08",
+                  "nazev": "předseda dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Kamil",
+                "prijmeni": "Zavoral"
+              }
+            },
+            {
+              "datumZapisu": "2006-05-17",
+              "datumVymazu": "2007-12-05",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2006-03-08",
+                  "zanikClenstvi": "2007-11-09"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Radek",
+                "prijmeni": "Fron"
+              }
+            },
+            {
+              "datumZapisu": "2007-12-05",
+              "datumVymazu": "2013-03-04",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "funkce": {
+                  "vznikFunkce": "2007-11-09",
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Petr",
+                "prijmeni": "Hošek"
+              }
+            },
+            {
+              "datumZapisu": "2012-07-25",
+              "datumVymazu": "2013-03-04",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-07-09",
+                  "zanikClenstvi": "2012-10-05"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Josef",
+                "prijmeni": "Jelínek"
+              }
+            },
+            {
+              "datumZapisu": "2012-07-25",
+              "datumVymazu": "2013-03-04",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-07-09"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "Kamil",
+                "prijmeni": "Zavoral"
+              }
+            },
+            {
+              "datumZapisu": "2013-03-04",
+              "datumVymazu": "2014-04-30",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-10-05",
+                  "zanikClenstvi": "2014-03-27"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "JIŘÍ",
+                "prijmeni": "MED"
+              }
+            },
+            {
+              "datumZapisu": "2013-03-04",
+              "datumVymazu": "2017-12-13",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-11-09",
+                  "zanikClenstvi": "2017-11-09"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "PETR",
+                "prijmeni": "HOŠEK"
+              }
+            },
+            {
+              "datumZapisu": "2013-03-04",
+              "datumVymazu": "2014-09-05",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-07-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2013-01-23",
+                  "nazev": "předseda dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "KAMIL",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2014-09-05",
+              "datumVymazu": "2017-09-18",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-07-09",
+                  "zanikClenstvi": "2017-07-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2013-01-23",
+                  "zanikFunkce": "2017-07-09",
+                  "nazev": "předseda dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "KAMIL",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2014-04-30",
+              "datumVymazu": "2016-02-24",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2014-03-27"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "RUDOLF",
+                "prijmeni": "ŽŮREK"
+              }
+            },
+            {
+              "datumZapisu": "2022-12-06",
+              "datumVymazu": "2024-11-14",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-11-23",
+                  "zanikClenstvi": "2024-06-30"
+                },
+                "funkce": {
+                  "nazev": "Člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "KATARÍNA",
+                "prijmeni": "LEXOVÁ",
+                "titulPredJmenem": "Bc."
+              }
+            },
+            {
+              "datumZapisu": "2017-09-18",
+              "datumVymazu": "2018-12-20",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2017-07-11"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "KAMIL",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2022-08-15",
+              "datumVymazu": "2022-12-06",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2017-11-20",
+                  "zanikClenstvi": "2022-11-20"
+                },
+                "funkce": {
+                  "zanikFunkce": "2022-11-20",
+                  "nazev": "Člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "PETR",
+                "prijmeni": "HOŠEK"
+              }
+            },
+            {
+              "datumZapisu": "2022-08-15",
+              "datumVymazu": "2026-04-13",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2018-11-28",
+                  "zanikClenstvi": "2023-11-28"
+                },
+                "funkce": {
+                  "nazev": "Člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "HANA",
+                "prijmeni": "ŽÁKOVÁ PETROVÁ",
+                "titulPredJmenem": "Ing."
+              }
+            },
+            {
+              "datumZapisu": "2022-08-15",
+              "datumVymazu": "2025-09-26",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-08-15"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-08-15",
+                  "nazev": "Předseda dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "JAN",
+                "prijmeni": "MOUDŘÍK"
+              }
+            },
+            {
+              "datumZapisu": "2018-12-20",
+              "datumVymazu": "2022-08-15",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2018-11-28"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "HANA",
+                "prijmeni": "ŽÁKOVÁ PETROVÁ",
+                "titulPredJmenem": "Ing."
+              }
+            },
+            {
+              "datumZapisu": "2018-12-20",
+              "datumVymazu": "2022-08-15",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2018-11-28",
+                  "zanikClenstvi": "2022-08-15"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "ŠTĚPÁN",
+                "prijmeni": "KMOCH",
+                "titulPredJmenem": "Mgr."
+              }
+            },
+            {
+              "datumZapisu": "2017-12-13",
+              "datumVymazu": "2022-08-15",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2017-11-20"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "PETR",
+                "prijmeni": "HOŠEK"
+              }
+            },
+            {
+              "datumZapisu": "2016-02-24",
+              "datumVymazu": "2018-12-20",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2014-03-27"
+                },
+                "funkce": {
+                  "nazev": "člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "RUDOLF",
+                "prijmeni": "ŽŮREK"
+              }
+            },
+            {
+              "datumZapisu": "2024-11-14",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2024-09-27"
+                },
+                "funkce": {
+                  "nazev": "Člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "PETR",
+                "prijmeni": "HOŠEK"
+              }
+            },
+            {
+              "datumZapisu": "2025-09-26",
+              "datumVymazu": "2026-04-13",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-08-15",
+                  "zanikClenstvi": "2026-03-31"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-08-15",
+                  "zanikFunkce": "2026-03-31",
+                  "nazev": "Předseda dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "JAN",
+                "prijmeni": "MOUDŘÍK"
+              }
+            },
+            {
+              "datumZapisu": "2026-04-13",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2026-03-31"
+                },
+                "funkce": {
+                  "vznikFunkce": "2026-03-31",
+                  "nazev": "Předseda dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "MAREK",
+                "prijmeni": "PREMUS"
+              }
+            },
+            {
+              "datumZapisu": "2026-04-13",
+              "typAngazma": "DOZORCI_RADA_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2023-11-28"
+                },
+                "funkce": {
+                  "nazev": "Člen dozorčí rady"
+                }
+              },
+              "nazevAngazma": "Člen dozorčí rady",
+              "fyzickaOsoba": {
+                "jmeno": "HANA",
+                "prijmeni": "ŽÁKOVÁ PETROVÁ",
+                "titulPredJmenem": "Ing."
+              }
+            }
+          ],
+          "typOrganu": "DOZORCI_RADA"
+        }
+      ],
+      "statutarniOrgany": [
+        {
+          "datumZapisu": "2003-08-26",
+          "nazevOrganu": "Statutární orgán - představenstvo",
+          "pocetClenu": [
+            {
+              "datumZapisu": "2020-06-22",
+              "datumVymazu": "2022-08-15",
+              "pocetClenu": 4,
+              "typ": "PRESNY"
+            },
+            {
+              "datumZapisu": "2022-08-15",
+              "pocetClenu": 6,
+              "typ": "PRESNY"
+            },
+            {
+              "datumZapisu": "2014-11-13",
+              "datumVymazu": "2020-06-22",
+              "pocetClenu": 2,
+              "typ": "CISLEM"
+            }
+          ],
+          "clenoveOrganu": [
+            {
+              "datumZapisu": "2013-07-18",
+              "datumVymazu": "2013-11-12",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-11-09"
+                },
+                "funkce": {
+                  "nazev": "člen představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "ALEŠ",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2013-11-12",
+              "datumVymazu": "2018-01-03",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2012-11-09",
+                  "zanikClenstvi": "2017-11-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2013-11-07",
+                  "zanikFunkce": "2017-11-09",
+                  "nazev": "předseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "ALEŠ",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2013-11-12",
+              "datumVymazu": "2018-12-20",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2013-10-24"
+                },
+                "funkce": {
+                  "vznikFunkce": "2013-11-07",
+                  "nazev": "místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "TOMÁŠ",
+                "prijmeni": "HAVRYLUK"
+              }
+            },
+            {
+              "datumZapisu": "2020-06-22",
+              "datumVymazu": "2022-12-06",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2017-11-09",
+                  "zanikClenstvi": "2022-11-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2020-06-17",
+                  "zanikFunkce": "2022-11-09",
+                  "nazev": "Předseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "ALEŠ",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2020-06-22",
+              "datumVymazu": "2022-08-15",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2018-11-07",
+                  "zanikClenstvi": "2022-08-15"
+                },
+                "funkce": {
+                  "vznikFunkce": "2020-06-17",
+                  "zanikFunkce": "2022-08-15",
+                  "nazev": "Místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "TOMÁŠ",
+                "prijmeni": "HAVRYLUK",
+                "titulPredJmenem": "Ing."
+              }
+            },
+            {
+              "datumZapisu": "2020-06-22",
+              "datumVymazu": "2025-05-13",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2020-06-17"
+                },
+                "funkce": {
+                  "vznikFunkce": "2020-06-17",
+                  "nazev": "Místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "PETR",
+                "prijmeni": "BENA",
+                "titulPredJmenem": "Ing."
+              }
+            },
+            {
+              "datumZapisu": "2022-12-06",
+              "datumVymazu": "2026-07-23",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-11-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-11-16",
+                  "nazev": "Předseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "ALEŠ",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2018-01-03",
+              "datumVymazu": "2020-06-22",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2017-11-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2017-12-20",
+                  "nazev": "předseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "ALEŠ",
+                "prijmeni": "ZAVORAL"
+              }
+            },
+            {
+              "datumZapisu": "2003-08-26",
+              "datumVymazu": "2007-04-23",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26"
+                },
+                "funkce": {
+                  "vznikFunkce": "2003-08-26",
+                  "nazev": "předseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "Aleš",
+                "prijmeni": "Zavoral"
+              }
+            },
+            {
+              "datumZapisu": "2003-08-26",
+              "datumVymazu": "2004-07-08",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26",
+                  "zanikClenstvi": "2003-12-17"
+                },
+                "funkce": {
+                  "nazev": "člen představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "Josef",
+                "prijmeni": "Zavoral"
+              }
+            },
+            {
+              "datumZapisu": "2003-08-26",
+              "datumVymazu": "2004-07-08",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26",
+                  "zanikClenstvi": "2003-12-17"
+                },
+                "funkce": {
+                  "nazev": "člen představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "Petr",
+                "prijmeni": "Schopf",
+                "titulPredJmenem": "Mgr."
+              }
+            },
+            {
+              "datumZapisu": "2007-04-23",
+              "datumVymazu": "2012-05-22",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2003-08-26",
+                  "zanikClenstvi": "2007-11-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2003-08-26",
+                  "zanikFunkce": "2007-11-09",
+                  "nazev": "předseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "Aleš",
+                "prijmeni": "Zavoral"
+              }
+            },
+            {
+              "datumZapisu": "2006-05-17",
+              "datumVymazu": "2008-06-11",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2006-03-08",
+                  "zanikClenstvi": "2008-01-29"
+                },
+                "funkce": {
+                  "vznikFunkce": "2006-03-08",
+                  "zanikFunkce": "2008-01-29",
+                  "nazev": "člen představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "Kamil",
+                "prijmeni": "Zavoral"
+              }
+            },
+            {
+              "datumZapisu": "2006-05-17",
+              "datumVymazu": "2008-06-11",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2006-03-08",
+                  "zanikClenstvi": "2008-01-29"
+                },
+                "funkce": {
+                  "vznikFunkce": "2006-03-08",
+                  "zanikFunkce": "2008-01-29",
+                  "nazev": "člen představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "Andrea",
+                "prijmeni": "Bartošová"
+              }
+            },
+            {
+              "datumZapisu": "2012-05-22",
+              "datumVymazu": "2013-07-18",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2007-11-09",
+                  "zanikClenstvi": "2012-11-09"
+                },
+                "funkce": {
+                  "nazev": "člen představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "Aleš",
+                "prijmeni": "Zavoral"
+              }
+            },
+            {
+              "datumZapisu": "2022-08-15",
+              "datumVymazu": "2023-08-04",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-08-15"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-08-15",
+                  "nazev": "Místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "JAKUB",
+                "prijmeni": "KREJČÍŘ"
+              }
+            },
+            {
+              "datumZapisu": "2022-08-15",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-08-15"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-08-15",
+                  "nazev": "Místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "MIROSLAV",
+                "prijmeni": "KÖVÁRY"
+              }
+            },
+            {
+              "datumZapisu": "2018-12-20",
+              "datumVymazu": "2020-06-22",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2018-11-07"
+                },
+                "funkce": {
+                  "vznikFunkce": "2018-11-08",
+                  "nazev": "místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "TOMÁŠ",
+                "prijmeni": "HAVRYLUK",
+                "titulPredJmenem": "Ing."
+              }
+            },
+            {
+              "datumZapisu": "2023-08-04",
+              "datumVymazu": "2026-07-23",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-08-15"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-08-15",
+                  "nazev": "Místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "JAKUB",
+                "prijmeni": "KREJČÍŘ"
+              }
+            },
+            {
+              "datumZapisu": "2025-05-13",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2025-03-31"
+                },
+                "funkce": {
+                  "vznikFunkce": "2025-03-31",
+                  "nazev": "Místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "PETR",
+                "prijmeni": "BENA",
+                "titulPredJmenem": "Ing."
+              }
+            },
+            {
+              "datumZapisu": "2026-07-23",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-08-15"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-08-15",
+                  "nazev": "Místopředseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "JAKUB",
+                "prijmeni": "KREJČÍŘ"
+              }
+            },
+            {
+              "datumZapisu": "2026-07-23",
+              "typAngazma": "STATUTARNI_ORGAN_CLEN",
+              "clenstvi": {
+                "clenstvi": {
+                  "vznikClenstvi": "2022-11-09"
+                },
+                "funkce": {
+                  "vznikFunkce": "2022-11-16",
+                  "nazev": "Předseda představenstva"
+                }
+              },
+              "nazevAngazma": "Člen statutárního orgánu",
+              "fyzickaOsoba": {
+                "jmeno": "ALEŠ",
+                "prijmeni": "ZAVORAL"
+              }
+            }
+          ],
+          "typOrganu": "STATUTARNI_ORGAN",
+          "zpusobJednani": [
+            {
+              "datumZapisu": "2003-08-26",
+              "datumVymazu": "2006-05-17",
+              "hodnota": "Představenstvo jedná jménem společnosti ve všech záležitostech vůči třetím osobám, rovněž i před soudy a jinými orgány. Za představenstvo jedná jménem společnosti předseda představenstva samostatně."
+            },
+            {
+              "datumZapisu": "2006-05-17",
+              "datumVymazu": "2008-06-11",
+              "hodnota": "Za představenstvo jedná jménem společnosti předseda představenstva samostatně nebo dva členové představenstva společně.\nPodepisování jménem společnosti se děje tím způsobem, že k napsané či otištěné firmě společnosti připojí svůj podpis předseda představenstva samostatně nebo dva členové představenstva společně."
+            },
+            {
+              "datumZapisu": "2008-06-11",
+              "datumVymazu": "2013-11-12",
+              "hodnota": "Člen představenstva jedná jménem společnosti samostatně."
+            },
+            {
+              "datumZapisu": "2013-11-12",
+              "datumVymazu": "2015-12-04",
+              "hodnota": "Každý člen představenstva jedná jménem společnosti samostatně."
+            },
+            {
+              "datumZapisu": "2017-12-13",
+              "hodnota": "Každý člen představenstva jedná jménem společnosti samostatně."
+            },
+            {
+              "datumZapisu": "2015-12-04",
+              "datumVymazu": "2017-12-13",
+              "hodnota": "Každý člen představenstva jedná jménem společnosti samostatně.\nV souladu s § 164 odst. 3 zákona č. 89/2012 Sb., občanského zákoníku je osobou pověřenou právním jednáním vůči zaměstnancům společnosti místopředseda představenstva - Tomáš Havryluk, pro případ nemožnosti pověřeného člena představenstva takto právně jednat je jeho náhradníkem předseda představenstva - Aleš Zavoral."
+            }
+          ]
+        }
+      ],
+      "akcionari": [
+        {
+          "datumZapisu": "2004-07-08",
+          "datumVymazu": "2006-07-17",
+          "clenoveOrganu": [
+            {
+              "datumZapisu": "2004-07-08",
+              "datumVymazu": "2006-07-17",
+              "typAngazma": "AKCIONAR",
+              "clenstvi": {},
+              "nazevAngazma": "Akcionář",
+              "fyzickaOsoba": {
+                "jmeno": "Aleš",
+                "prijmeni": "Zavoral"
+              }
+            }
+          ],
+          "typOrganu": "AKCIONAR",
+          "typAkcionare": "OSOBA"
+        },
+        {
+          "datumZapisu": "2008-06-11",
+          "datumVymazu": "2012-07-25",
+          "clenoveOrganu": [
+            {
+              "datumZapisu": "2008-06-11",
+              "datumVymazu": "2012-07-25",
+              "typAngazma": "AKCIONAR",
+              "clenstvi": {
+                "textZaOsobu": "reg. č. HE 197294"
+              },
+              "nazevAngazma": "Akcionář",
+              "pravnickaOsoba": {
+                "adresa": {
+                  "kodStatu": "CY",
+                  "nazevStatu": "Kypr",
+                  "textovaAdresa": "Nicosia, Kennedy 8, ATHIENITIS BUILDING, 4th floor, Flat/Office 401, 1087",
+                  "standardizaceAdresy": false
+                },
+                "obchodniJmeno": "L.S. INVESTMENTS LIMITED"
+              }
+            }
+          ],
+          "typOrganu": "AKCIONAR",
+          "typAkcionare": "OSOBA"
+        },
+        {
+          "datumZapisu": "2012-07-25",
+          "datumVymazu": "2017-09-18",
+          "clenoveOrganu": [
+            {
+              "datumZapisu": "2012-07-25",
+              "datumVymazu": "2017-09-18",
+              "typAngazma": "AKCIONAR",
+              "clenstvi": {},
+              "nazevAngazma": "Akcionář",
+              "pravnickaOsoba": {
+                "adresa": {
+                  "kodStatu": "CY",
+                  "nazevStatu": "Kypr",
+                  "textovaAdresa": "Nikósie, Strovolos, Akropolis 59-61",
+                  "standardizaceAdresy": false
+                },
+                "obchodniJmeno": "L.S. INVESTMENTS LIMITED"
+              }
+            }
+          ],
+          "typOrganu": "AKCIONAR",
+          "typAkcionare": "OSOBA"
+        },
+        {
+          "datumZapisu": "2017-09-18",
+          "clenoveOrganu": [
+            {
+              "datumZapisu": "2017-09-18",
+              "typAngazma": "AKCIONAR",
+              "clenstvi": {},
+              "nazevAngazma": "Akcionář",
+              "pravnickaOsoba": {
+                "adresa": {
+                  "kodStatu": "CY",
+                  "nazevStatu": "Kypr",
+                  "nazevObce": "Nikósie",
+                  "nazevUlice": "CHAPO CENTRAL, 1st floor, Spyrou Kyprianou 20",
+                  "textovaAdresa": "CHAPO CENTRAL, 1st floor, Spyrou Kyprianou 20, 1075 Nikósie, Kypr",
+                  "standardizaceAdresy": false,
+                  "pscTxt": "1075"
+                },
+                "obchodniJmeno": "L.S. INVESTMENTS LIMITED"
+              }
+            }
+          ],
+          "typOrganu": "AKCIONAR",
+          "typAkcionare": "OSOBA"
+        }
+      ]
+    }
+  ]
+}
