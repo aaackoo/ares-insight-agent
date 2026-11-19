@@ -16,7 +16,7 @@ from langchain_core.outputs import ChatResult
 
 from app.agent import AgentGraph, build_graph
 from app.ares import AresClient
-from app.main import app, get_graph
+from app.main import app, get_graph, summarize_tool_output
 from app.tools import build_tools
 from tests.conftest import COMPANY_URL, FakeToolCallingModel, final_answer, make_graph, tool_call
 
@@ -101,8 +101,15 @@ async def test_ask_stream_emits_each_step(
     events = parse_sse(response.text)
     assert [name for name, _ in events] == ["tool_call", "tool_result", "answer"]
     assert events[0][1] == {"tool": "get_company_by_ico", "args": {"ico": "27082440"}}
-    assert events[1][1]["tool"] == "get_company_by_ico"
+    # The preview is a real JSON object, not a JSON string inside JSON.
+    tool_result = events[1][1]
+    assert tool_result["tool"] == "get_company_by_ico"
+    assert tool_result["preview"]["ico"] == "27082440"
+    assert tool_result["preview"]["legal_form"] == "Akciová společnost"
     assert events[2][1]["answer"] == "Yes, Alza.cz a.s. is active."
+    # Czech characters are sent as-is in every event, not as \u escapes.
+    assert "Holešovice" in response.text
+    assert "\\u" not in response.text
 
 
 class BrokenModel(FakeToolCallingModel):
@@ -120,3 +127,40 @@ async def test_ask_stream_reports_errors_as_event(
     events = parse_sse(response.text)
     assert events == [("error", {"message": "The agent failed, try again."})]
     assert "LLM provider is down" not in response.text  # internals are not leaked
+
+
+def test_preview_of_list_shows_first_three_items_and_total() -> None:
+    companies = [{"ico": str(i), "name": f"Firma {i}"} for i in range(5)]
+
+    preview = summarize_tool_output(json.dumps(companies))
+
+    assert preview == {"total": 5, "items": companies[:3]}
+
+
+def test_preview_of_object_shortens_long_fields() -> None:
+    record = {
+        "ico": "27082440",
+        "company_name": "Alza.cz a.s.",
+        "status": "AKTIVNI",
+        "bodies": [{"members": [{"name": f"Člen {i}"} for i in range(5)]}],
+        "note": "x" * 100,
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/27082440",
+    }
+
+    preview = summarize_tool_output(json.dumps(record))
+
+    assert preview["ico"] == "27082440"
+    assert preview["status"] == "AKTIVNI"
+    assert preview["note"] == "x" * 80 + "..."
+    assert preview["source_url"] == record["source_url"]  # links are never cut
+    members = preview["bodies"][0]["members"]
+    assert members == [{"name": "Člen 0"}, {"name": "Člen 1"}, {"name": "Člen 2"}, "... 2 more"]
+
+
+def test_preview_of_plain_text_is_a_short_string() -> None:
+    message = "No active company found in ARES with IČO 12345678. " * 10
+
+    preview = summarize_tool_output(message)
+
+    assert isinstance(preview, str)
+    assert preview == message[:200] + "..."
