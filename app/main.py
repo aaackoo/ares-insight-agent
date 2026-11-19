@@ -1,5 +1,6 @@
 """FastAPI app: POST /ask, POST /ask/stream (Server-Sent Events), GET /health."""
 
+import json
 import logging
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
@@ -7,6 +8,7 @@ from typing import Annotated, Any
 
 import httpx
 from fastapi import Depends, FastAPI, Request
+from fastapi.encoders import jsonable_encoder
 from fastapi.sse import EventSourceResponse, ServerSentEvent
 from langchain_core.messages import AIMessage, ToolMessage
 from pydantic import BaseModel, Field
@@ -78,7 +80,7 @@ async def ask_stream(body: AskRequest, graph: Graph) -> AsyncIterator[ServerSent
         # The 200 status and headers are already sent, so errors are reported as an event.
         # Details go to the log, not to the client.
         logger.exception("Agent run failed")
-        yield ServerSentEvent(event="error", data={"message": "The agent failed, try again."})
+        yield sse("error", {"message": "The agent failed, try again."})
 
 
 def to_events(node: str, node_output: dict[str, Any]) -> list[ServerSentEvent]:
@@ -87,18 +89,55 @@ def to_events(node: str, node_output: dict[str, Any]) -> list[ServerSentEvent]:
     for message in node_output.get("messages", []):
         if isinstance(message, AIMessage):
             for call in message.tool_calls:
-                events.append(
-                    ServerSentEvent(
-                        event="tool_call", data={"tool": call["name"], "args": call["args"]}
-                    )
-                )
+                events.append(sse("tool_call", {"tool": call["name"], "args": call["args"]}))
         elif isinstance(message, ToolMessage):
-            events.append(
-                ServerSentEvent(
-                    event="tool_result",
-                    data={"tool": message.name, "preview": str(message.content)[:200]},
-                )
-            )
+            preview = summarize_tool_output(str(message.content))
+            events.append(sse("tool_result", {"tool": message.name, "preview": preview}))
     if node == "respond" and node_output.get("answer") is not None:
-        events.append(ServerSentEvent(event="answer", data=node_output["answer"]))
+        events.append(sse("answer", node_output["answer"]))
     return events
+
+
+def sse(event: str, data: Any) -> ServerSentEvent:
+    """Build an event with JSON data that keeps Czech characters readable.
+
+    FastAPI would serialize `data` with json.dumps' default ensure_ascii=True ("Č" becomes
+    "\\u010c"), so we serialize it ourselves and pass the result as raw_data.
+    """
+    return ServerSentEvent(
+        event=event, raw_data=json.dumps(jsonable_encoder(data), ensure_ascii=False)
+    )
+
+
+PREVIEW_ITEMS = 3  # list items shown in a preview
+PREVIEW_CHARS = 80  # longer strings are cut
+
+
+def summarize_tool_output(content: str) -> Any:
+    """Small, readable preview of a tool's output for the stream.
+
+    Tools return JSON, so the preview is a real JSON value, not a JSON string inside JSON:
+    a list becomes {"total": n, "items": [first 3]}, an object keeps its fields but long
+    values are shortened. Non-JSON output (e.g. "No company found ...") becomes a short string.
+    """
+    try:
+        value = json.loads(content)
+    except json.JSONDecodeError:
+        return _shorten(content, limit=200)
+    if isinstance(value, list):
+        return {"total": len(value), "items": [_shorten(v) for v in value[:PREVIEW_ITEMS]]}
+    return _shorten(value)
+
+
+def _shorten(value: Any, limit: int = PREVIEW_CHARS) -> Any:
+    """Recursively cut long strings and long lists inside a JSON value."""
+    if isinstance(value, str):
+        return value if len(value) <= limit else value[:limit] + "..."
+    if isinstance(value, list):
+        shown = [_shorten(v) for v in value[:PREVIEW_ITEMS]]
+        hidden = len(value) - PREVIEW_ITEMS
+        return shown + [f"... {hidden} more"] if hidden > 0 else shown
+    if isinstance(value, dict):
+        # Never cut source URLs: a truncated link is a broken link.
+        return {key: v if key == "source_url" else _shorten(v) for key, v in value.items()}
+    return value  # numbers, booleans, null
